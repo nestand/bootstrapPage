@@ -1,0 +1,22 @@
+Intégration [responsive] d'une maquette graphique avec Bootstrap
+
+1/Indications:
+ . maquette: screenshot.png
+ . images fournies: img/
+ . travail en binôme
+ . ressources illimités (en ligne, sur l'ordinateur)
+ . html/css/bootstrap
+
+
+2/ Ressources à utiliser:
+ . css/custom.css
+ . img/ pour les images
+ . font-awasone pour les icones
+
+
+3/ Critères de qualité:
+ . ressemblance à la maquette fournie
+ . code lisible, indenté et commenté
+ . responsive
+
+

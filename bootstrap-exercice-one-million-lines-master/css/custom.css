@@ -1,0 +1,12 @@
+:root {
+    --bs-grey:  #b8b894;
+}
+.container {
+    text-transform: uppercase;
+    color:  var(--bs-grey);
+    
+}
+/*gris couleur pour nav?*/
+a.navbar-brand{
+    color:  var(--bs-grey);
+}
