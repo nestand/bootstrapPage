@@ -31,17 +31,32 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
+  
   <!-- le menu-->
   <nav class="navbar navbar-dark bg-dark">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="../bootstrap-exercice-one-million-lines-master/images/top-logo.png" alt="" width="auto" height="auto">
+        <img src="../bootstrap-exercice-one-million-lines-master/images/top-logo.png" alt="menu logo" width="auto" height="auto">
       </a>
-      <div= class="text-right" style="color:#b8b894;">
-        <a class="navbar-brand" href="#who">who we are</a>
-        <a class="navbar-brand" href="#get-involved">get involved</a>
-      </div=>
-    </div>
+  
+  <!-- le button burger-->
+  <button class="navbar-toggler toggler-example d-sm-none" type="button" data-toggle="collapse" data-target="#navbarContent"
+  aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation"><i
+      class="fas fa-bars fa-1x"></i></button>
+
+<!-- le contenu-->
+<div class="collapse navbar-collapse" id="navbarContent">  
+
+  <!-- les liens -->
+     
+   <ul class="navbar-nav mr-auto">
+      <li class="nav-item">     
+        <a class="nav-link" href="#who">who we are</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#get-involved">get involved</a>
+      </li>
+  </div>
   </nav>
 
   <div id="home">
@@ -67,60 +82,62 @@
       </div>
     </div>
   </div>
-    <!-- /#who -->
-    <div id="who">
-      <div class="row col-xs-5">
-        
-        <!-- LOGO Academy -->
-        <div class="text-center">
-          <img class="academy" src="../bootstrap-exercice-one-million-lines-master/images/academy-brand-med.png"
-            alt="Academy logo">
-        </div>
+  <!-- /#who -->
+  <div id="who">
+
+    <div class="row">
+
+      <!-- LOGO Academy -->
+      <div class="col-xs-1">
+        <img class="academy" src="../bootstrap-exercice-one-million-lines-master/images/academy-brand-med.png"
+          alt="Academy logo">
+      </div>
+
+      <div class="col-xs-2">
         <p class="text-center">We are <span style="color:red;">MASSIVE Academy</span>. We aim to improve education
           through both method - effective project-based learning - and material
           - by teaching skills that are applicable to improving your life today.</p>
       </div>
 
-      <div class="1">
-      <!-- /#get-involved -->
-      <div id="get-involved">
-        <!--LOGO STUDENTS-->
-        <i class="fas fa-user-alt"></i>
-        <!--text area-->
-        <h2>STUDENTS</h2>
-        <p class="text-center">Want to learn how to code? Want to
-          help us get to 1,000,000 lines? Click
-          the button below and we'll let you know
-          how to get involved.</p>
+      <div class="col-xs-3">
+        <!-- /#get-involved -->
+        <div id="get-involved">
+          <!--LOGO STUDENTS-->
+          <i class="fas fa-user-alt"></i>
+          <!--text area-->
+          <h2>STUDENTS</h2>
+          <p class="text-center">Want to learn how to code? Want to
+            help us get to 1,000,000 lines? Click
+            the button below and we'll let you know
+            how to get involved.</p>
 
-        <button>Start Learning</button>
-      </div>
-       
-      <div class="2">
-      
-
-        <!--LOGO EDUCATORS-->
-        <i class="fas fa-pencil-alt"></i>
-        <!--text area-->
-        <h2>EDUCATORS</h2>
-        <p>Want to bring this initiative to your
-          school or institution? Awesome! Click
-          the button below and we'll make it
-          happen.</p>
-        <button>Join The Initiative</button>
-        
+          <button>Start Learning</button>
+        </div>
       </div>
 
-      <div class="3">
-        <!--LOGO SPONSORS-->
-        <i class="far fa-money-bill-alt"></i>
-        <!--text area-->
-        <h2>SPONSORS</h2>
-        <p class="text-center">We love all the support we get to help
-          host more events, and empower more
-          lives with the knowledge of coding.</p>
-        <button>Give Support</button>
-      </div>
+        <div class="col-xs-4">
+          <!--LOGO EDUCATORS-->
+          <i class="fas fa-pencil-alt"></i>
+          <!--text area-->
+          <h2>EDUCATORS</h2>
+          <p>Want to bring this initiative to your
+            school or institution? Awesome! Click
+            the button below and we'll make it
+            happen.</p>
+          <button>Join The Initiative</button>
+        </div>
+
+        <div class="col-xs-5">
+          <!--LOGO SPONSORS-->
+          <i class="far fa-money-bill-alt"></i>
+          <!--text area-->
+          <h2>SPONSORS</h2>
+          <p class="text-center">We love all the support we get to help
+            host more events, and empower more
+            lives with the knowledge of coding.</p>
+          <button>Give Support</button>
+        </div>
+
       </div>
     </div>
 
@@ -129,17 +146,17 @@
       <div class="container-fluid">
         <div class="row bg-danger text-white">
           <p class="align-text-bottom" style="margin-top:10%;margin-bottom:20%;">
-            <img src="../bootstrap-exercice-one-million-lines-master/images/one-million-bottom-brand.png" alt="">
+            <img src="../bootstrap-exercice-one-million-lines-master/images/one-million-bottom-brand.png" alt="footer logo" width="auto" height="auto">
           </p>
-              <div class = "text-right">
-              <!-- /#back-to-top -->
-              <a id="back-to-top" href="#" class="btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
-            </div>
+          <div class="text-right">
+            <!-- /#back-to-top -->
+            <a id="back-to-top" href="#" class="btn-lg back-to-top" role="button"><i class="fas fa-chevron-up"></i></a>
+          </div>
         </div>
-    
+
       </div>
     </footer>
-        
+
 
 </body>
 
