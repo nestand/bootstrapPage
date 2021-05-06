@@ -1,12 +1,24 @@
 :root {
-    --bs-grey:  #b8b894;
+    --bs-grey: #b8b894;
+    --bs-lightgrey: #f2f3f3;
 }
-.container {
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
     text-transform: uppercase;
-    color:  var(--bs-grey);
-    
+    color: var(--bs-grey);
+
 }
-/*gris couleur pour le contenu de menu*/
-a.navbar-brand{
-    color:  var(--bs-grey);
+
+.row {
+    background-color: var(--bs-lightgrey);
+}
+
+#home {
+    background-image: url(../images/hero-image.jpg);
+    background-size: cover;
 }
